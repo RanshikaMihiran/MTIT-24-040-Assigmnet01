@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: IctRegisterSubscriber
+Bundle-SymbolicName: IctRegisterSubscriber
+Bundle-Version: 1.0.0.qualifier
+Export-Package: ictregistersubscriber
+Bundle-Activator: ictregistersubscriber.IctActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-20
+Automatic-Module-Name: IctRegisterSubscriber
+Import-Package: ictregisterpublisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
